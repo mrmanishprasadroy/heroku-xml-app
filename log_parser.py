@@ -98,7 +98,7 @@ class TinyXmlReader:
         element_list = []
         d_type = []
         sub_element_list = []
-        x_string = "./telegram[@name ='" + tlg_name + "']/record/element"
+        x_string = "./telegram[@name='" + tlg_name + "']/record/element"
         for item in self.root.findall(x_string):
             # iterate child elements of item
             data_type = ""
