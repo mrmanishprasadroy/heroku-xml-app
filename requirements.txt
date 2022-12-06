@@ -55,7 +55,6 @@ pyparsing
 pyrsistent
 python-dateutil
 pytz
-pywinpty
 pyzmq
 requests
 retrying
